@@ -7,8 +7,15 @@
     width: 100vw;
     background-color : greenyellow;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content : center;
+    align-items:center;
+}
+.score{
+    height: 5vmin;    
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
 }
 .board{
     background-color: rgb(146, 210, 146);
@@ -31,5 +38,5 @@
 }
 
 .food{
-    background-color: red    ;
+    background-color: red;
 }
