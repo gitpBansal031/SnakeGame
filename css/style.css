@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.body{
+.window{
     height: 100vh;
     width: 100vw;
     background-color : greenyellow;
@@ -21,9 +21,15 @@
 }
 
 .head{
-    background-color: red;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.body{
+    background-color: yellow;
+    border: 1px solid black;
 }
 
 .food{
-    background-color: purple    ;
+    background-color: red    ;
 }
